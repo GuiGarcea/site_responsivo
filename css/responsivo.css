@@ -1,0 +1,117 @@
+@media (min-width: 480px) and (max-width: 767px){
+    .menuzoca ul li{
+        width: 156px;
+        display: block;
+        float: left;
+        background-color: #B7D3B0;
+        text-align: center;
+        color: GREEN;
+        line-height: 3.0em;
+        border-bottom: 4px solid green;
+    }
+
+    figure figcaption{
+        background: rgba(183, 234, 176, 0.6);
+        color: green;
+        font-size: 30px;
+        display: inline;
+        position: absolute;
+        bottom: 46px;
+        width: 288px;
+        text-align: left;
+        right: 6px;
+        border-radius: 20px 20px 20px 0;
+        line-height: 1em;
+        padding: 4px 0px 5px 9px;
+        font-family: IndieFlower;
+    }
+
+    /*BORDAS VERDES*/
+    #container{margin:auto;max-width: 970px;width: 100%;border:5px solid green;box-shadow: 2px 2px 20px #000;}
+    figure{position: relative;height: 158px;border-bottom: 10px solid green;clear: both;}
+     h1{border-bottom: 1px solid green;}
+    aside nav ul li a {border: 1px solid green;}
+    .estiloBox {
+        border: 2px solid green;
+        background-image: linear-gradient(to bottom, #FFFFFF 0%, #B7D3B0 100%);
+        color: green;
+    }
+
+    article {
+        width: 70%;
+        min-height: 400px;
+        float: right;
+    }
+
+    aside {
+        width: 30%;
+        min-height: 100px;
+        float: left;
+    }
+
+    aside nav ul li:nth-child(2n) {
+        background-color: #B7D3B0;
+    }
+
+    footer{text-align: right;}
+
+    aside img{display: none;}
+
+}
+
+@media (max-width: 320px){
+
+    .menuzoca ul li {
+    width: 310px;
+    border-bottom: 4px solid #333;
+    background-color: black;
+}
+
+    figure{height: 94px;}
+
+    figure figcaption{
+    background: rgba(0,0,0, 0.6);
+    color: #fff;
+    font-size: 19px;
+    display: inline;
+    position: absolute;
+    bottom: 9px;
+    width: 303px;
+    text-align: center;
+    right: 3px;
+    border-radius: 20px 0px 20px 0;
+    line-height: 1em;
+    padding: 8px 13px 2px 17px;
+    font-family: IndieFlower;
+}
+    article { width: 100%;}
+
+    h1{
+        text-align: center;
+        font-family: UbuntuCondensed-Regular;
+        color: #0000FF;
+    }
+
+    .estiloBox {background-image: linear-gradient(to bottom, #FFFFFF 0%, #94BFD4 100%);}
+
+    aside{width: 100%;}
+
+    aside nav ul li a{text-align: center;}
+
+    aside img{display: none;}
+
+    footer{display: none;}
+
+}
+/*
+ _____   _   _____       ___   _____        _____   _____   _____    _____   _____   _           ___  
+|  _  \ | | /  ___|     /   | /  ___/      |  _  \ /  _  \ |  _  \  |_   _| /  _  \ | |         /   | 
+| | | | | | | |        / /| | | |___       | |_| | | | | | | |_| |    | |   | | | | | |        / /| | 
+| | | | | | | |       / / | | \___  \      |  _  { | | | | |  _  /    | |   | | | | | |       / / | | 
+| |_| | | | | |___   / /  | |  ___| |      | |_| | | |_| | | | \ \    | |   | |_| | | |___   / /  | | 
+|_____/ |_| \_____| /_/   |_| /_____/      |_____/ \_____/ |_|  \_\   |_|   \_____/ |_____| /_/   |_| 
+
+
+Para validar o resultado, utilizar o browser Firefox, 
+pressionando as teclas "ctrl + shift + M"
+*/

@@ -1,0 +1,29 @@
+@font-face{
+    font-family: IndieFlower;
+    src: url(/Fontes/AlgumasFontes/MaisFontes/OutrasFontes/Indie_Flower/IndieFlower.ttf);    
+}
+
+@font-face {
+    font-family: Roboto-BoldItalic;
+    src: url(/Fontes/AlgumasFontes/MaisFontes/OutrasFontes/Roboto/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(/Fontes/AlgumasFontes/MaisFontes/OutrasFontes/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+font-family: Roboto-LightItalic;
+    src: url(/Fontes/AlgumasFontes/MaisFontes/OutrasFontes/Roboto/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-ThinItalic;
+    src: url(/Fontes/AlgumasFontes/MaisFontes/OutrasFontes/Roboto/Roboto-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: UbuntuCondensed-Regular;
+    src: url(/Fontes/AlgumasFontes/MaisFontes/OutrasFontes/Ubuntu_Condensed/UbuntuCondensed-Regular.ttf);
+}
